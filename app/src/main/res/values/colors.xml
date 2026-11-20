@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primario">#E8590C</color>
+    <color name="primario_variante">#C94A08</color>
+    <color name="fondo_pantalla">#F8F9FA</color>
+    <color name="fondo_tarjeta">#FFFFFF</color>
+    <color name="texto_principal">#1A1D20</color>
+    <color name="texto_secundario">#5C636A</color>
+    <color name="texto_sobre_primario">#FFFFFF</color>
+    <color name="borde_tarjeta">#DEE2E6</color>
+    <color name="fondo_respuesta_ia">#FFF4EE</color>
+    <color name="peligro">#C92A2A</color>
+</resources>

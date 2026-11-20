@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="@color/fondo_pantalla">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:id="@+id/txtTituloRegistro"
+            style="@style/EstiloTituloPantalla"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/titulo_registro" />
+
+        <TextView
+            android:id="@+id/txtSubtituloRegistro"
+            style="@style/EstiloSubtitulo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="20dp"
+            android:text="@string/subtitulo_registro" />
+
+        <EditText
+            android:id="@+id/edtNombreUsuario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:autofillHints="name"
+            android:hint="@string/hint_nombre_usuario"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            android:textColor="@color/texto_principal"
+            android:textColorHint="@color/texto_secundario" />
+
+        <EditText
+            android:id="@+id/edtCorreoRegistro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:autofillHints="emailAddress"
+            android:hint="@string/hint_correo"
+            android:inputType="textEmailAddress"
+            android:minHeight="48dp"
+            android:textColor="@color/texto_principal"
+            android:textColorHint="@color/texto_secundario" />
+
+        <EditText
+            android:id="@+id/edtContrasenaRegistro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:autofillHints="newPassword"
+            android:hint="@string/hint_contrasena"
+            android:inputType="textPassword"
+            android:minHeight="48dp"
+            android:textColor="@color/texto_principal"
+            android:textColorHint="@color/texto_secundario" />
+
+        <EditText
+            android:id="@+id/edtRepetirContrasena"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="18dp"
+            android:autofillHints="newPassword"
+            android:hint="@string/hint_repetir_contrasena"
+            android:inputType="textPassword"
+            android:minHeight="48dp"
+            android:textColor="@color/texto_principal"
+            android:textColorHint="@color/texto_secundario" />
+
+        <TextView
+            android:id="@+id/txtPreguntaObjetivo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:text="@string/pregunta_objetivo"
+            android:textColor="@color/texto_principal"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:id="@+id/rgObjetivo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp">
+
+            <RadioButton
+                android:id="@+id/rbFuerza"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="48dp"
+                android:text="@string/opcion_fuerza"
+                android:textColor="@color/texto_principal" />
+
+            <RadioButton
+                android:id="@+id/rbHipertrofia"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:minHeight="48dp"
+                android:text="@string/opcion_hipertrofia"
+                android:textColor="@color/texto_principal" />
+
+            <RadioButton
+                android:id="@+id/rbResistencia"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="48dp"
+                android:text="@string/opcion_resistencia"
+                android:textColor="@color/texto_principal" />
+        </RadioGroup>
+
+        <CheckBox
+            android:id="@+id/chkTerminos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:minHeight="48dp"
+            android:text="@string/chk_terminos"
+            android:textColor="@color/texto_principal" />
+
+        <Button
+            android:id="@+id/btnRegistrar"
+            style="@style/EstiloBotonPrimario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_registrar" />
+
+    </LinearLayout>
+</ScrollView>

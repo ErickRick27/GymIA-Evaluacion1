@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GymIA</string>
+
+    <!-- Pantalla 1: Login -->
+    <string name="desc_logo_gymia">Logotipo de GymIA</string>
+    <string name="subtitulo_login">Tu rutina de entrenamiento asistida por IA</string>
+    <string name="hint_correo">Correo electrónico</string>
+    <string name="hint_contrasena">Contraseña</string>
+    <string name="btn_ingresar">Ingresar</string>
+    <string name="btn_ir_registro">Crear cuenta nueva</string>
+
+    <!-- Pantalla 2: Registro -->
+    <string name="titulo_registro">Registro de atleta</string>
+    <string name="subtitulo_registro">Configura tu perfil para personalizar tus rutinas</string>
+    <string name="hint_nombre_usuario">Nombre o alias</string>
+    <string name="hint_repetir_contrasena">Repetir contraseña</string>
+    <string name="pregunta_objetivo">¿Cuál es tu objetivo principal en el gimnasio?</string>
+    <string name="opcion_fuerza">Fuerza máxima</string>
+    <string name="opcion_hipertrofia">Hipertrofia muscular</string>
+    <string name="opcion_resistencia">Resistencia y condición</string>
+    <string name="chk_terminos">Acepto los términos de uso y privacidad de GymIA</string>
+    <string name="btn_registrar">Registrarme</string>
+
+    <!-- Pantalla 3: Lista de rutinas -->
+    <string name="titulo_lista">Mis rutinas</string>
+    <string name="btn_nueva_rutina">+ Nueva</string>
+    <string name="btn_abrir_ia">Rutina IA</string>
+    <string name="subtitulo_historial">Sesiones recientes registradas</string>
+
+    <string name="fila1_titulo">Pecho y Tríceps · Lunes</string>
+    <string name="fila1_detalle">4 ejercicios · 45 min · Nivel intermedio</string>
+    <string name="fila1_estado">Completada</string>
+
+    <string name="fila2_titulo">Espalda y Bíceps · Miércoles</string>
+    <string name="fila2_detalle">5 ejercicios · 55 min · Sugerida por IA</string>
+    <string name="fila2_estado">Completada</string>
+
+    <string name="fila3_titulo">Pierna Completa · Viernes</string>
+    <string name="fila3_detalle">4 ejercicios · 60 min · Enfoque fuerza</string>
+    <string name="fila3_estado">Pendiente</string>
+
+    <!-- Pantalla 4: Agregar rutina -->
+    <string name="titulo_agregar">Nueva sesión de entrenamiento</string>
+    <string name="subtitulo_agregar">Registra el grupo muscular y el ejercicio realizado</string>
+    <string name="hint_grupo_muscular">Grupo muscular (ej. Pecho, Pierna)</string>
+    <string name="hint_nombre_ejercicio">Nombre del ejercicio (ej. Press de banca)</string>
+    <string name="hint_series">Series (ej. 4)</string>
+    <string name="hint_repeticiones">Repeticiones (ej. 10)</string>
+    <string name="hint_peso_kg">Peso en kg (ej. 50)</string>
+    <string name="hint_notas_ejercicio">Notas técnicas o descanso (opcional)</string>
+    <string name="btn_guardar_rutina">Guardar sesión</string>
+
+    <!-- Pantalla 5: Detalle de rutina -->
+    <string name="titulo_detalle">Detalle de rutina</string>
+    <string name="detalle_nombre_rutina">Pecho y Tríceps · Fuerza</string>
+    <string name="detalle_fecha_nivel">Fecha: 16/11/2026 · Nivel: Intermedio · Duración: 50 min</string>
+    <string name="detalle_lista_ejercicios">1. Press de banca plano — 4 series × 8 reps (60 kg)
+2. Press inclinado con mancuernas — 3 × 10 reps (20 kg)
+3. Aperturas en polea alta — 3 × 12 reps (15 kg)
+4. Fondos en paralelas — 3 × 10 reps (Peso corporal)</string>
+    <string name="detalle_observacion">Observación: Mantener 90 segundos de descanso entre series pesadas.</string>
+    <string name="btn_marcar_completada">Marcar como completada</string>
+    <string name="btn_editar_rutina">Editar rutina</string>
+    <string name="btn_eliminar_rutina">Eliminar rutina</string>
+
+    <!-- Pantalla 6: IA -->
+    <string name="titulo_ia">Entrenador GymIA</string>
+    <string name="subtitulo_ia">Describe qué quieres entrenar hoy o cuánto tiempo tienes</string>
+    <string name="hint_prompt_ia">Ej: Tengo 40 minutos y quiero entrenar espalda y hombro en máquina</string>
+    <string name="btn_preguntar_ia">Generar rutina con IA</string>
+    <string name="etiqueta_respuesta_ia">Rutina sugerida por GymIA:</string>
+    <string name="ejemplo_respuesta_ia">Enfoque: Espalda y Hombro (40 min)
+
+• Jalón al pecho en polea: 4 series × 10 reps (Descanso: 60 s)
+• Remo sentado en máquina: 3 series × 12 reps (Descanso: 60 s)
+• Press militar con mancuernas: 3 series × 10 reps (Descanso: 75 s)
+• Elevaciones laterales: 3 series × 15 reps (Descanso: 45 s)
+
+Consejo IA: Prioriza el control en la fase excéntrica para evitar fatiga lumbar.</string>
+</resources>

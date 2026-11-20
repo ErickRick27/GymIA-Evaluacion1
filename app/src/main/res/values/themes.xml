@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.GymIA" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/primario</item>
+        <item name="colorOnPrimary">@color/texto_sobre_primario</item>
+        <item name="android:windowBackground">@color/fondo_pantalla</item>
+    </style>
+
+    <style name="EstiloTituloPantalla">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/texto_principal</item>
+    </style>
+
+    <style name="EstiloSubtitulo">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/texto_secundario</item>
+    </style>
+
+    <style name="EstiloTarjetaGym">
+        <item name="android:background">@color/fondo_tarjeta</item>
+        <item name="android:padding">16dp</item>
+    </style>
+
+    <style name="EstiloBotonPrimario" parent="Widget.Material3.Button">
+        <item name="android:minHeight">48dp</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="backgroundTint">@color/primario</item>
+        <item name="android:textColor">@color/texto_sobre_primario</item>
+    </style>
+
+    <style name="EstiloBotonSecundario" parent="Widget.Material3.Button.OutlinedButton">
+        <item name="android:minHeight">48dp</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/primario</item>
+    </style>
+</resources>

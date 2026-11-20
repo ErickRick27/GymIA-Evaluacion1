@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.GymIA" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/primario</item>
+        <item name="colorOnPrimary">@color/texto_sobre_primario</item>
+        <item name="android:windowBackground">@color/fondo_pantalla</item>
+    </style>
+</resources>

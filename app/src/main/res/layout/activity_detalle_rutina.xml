@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fondo_pantalla"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:id="@+id/txtTituloDetalle"
+            style="@style/EstiloTituloPantalla"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="@string/titulo_detalle" />
+
+        <LinearLayout
+            android:id="@+id/cardDetalleRutina"
+            style="@style/EstiloTarjetaGym"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtDetalleNombreRutina"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/detalle_nombre_rutina"
+                android:textColor="@color/primario"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtDetalleFechaNivel"
+                style="@style/EstiloSubtitulo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="14dp"
+                android:text="@string/detalle_fecha_nivel" />
+
+            <TextView
+                android:id="@+id/txtDetalleListaEjercicios"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="6dp"
+                android:text="@string/detalle_lista_ejercicios"
+                android:textColor="@color/texto_principal"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/txtDetalleObservacion"
+                style="@style/EstiloSubtitulo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="14dp"
+                android:text="@string/detalle_observacion" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnMarcarCompletada"
+            style="@style/EstiloBotonPrimario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="@string/btn_marcar_completada" />
+
+        <Button
+            android:id="@+id/btnEditarRutina"
+            style="@style/EstiloBotonSecundario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="@string/btn_editar_rutina" />
+
+        <Button
+            android:id="@+id/btnEliminarRutina"
+            style="@style/EstiloBotonSecundario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_eliminar_rutina"
+            android:textColor="@color/peligro" />
+
+    </LinearLayout>
+</ScrollView>
